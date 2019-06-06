@@ -1,8 +1,7 @@
 {
-  "name": "api-module",
+  "name": "@groovy/api-module",
   "version": "0.1.0",
   "description": "Groovy's official api-module",
-  "license": "MIT",
   "contributors": [
     {
       "name": "Rxsto <oz@farfrom.social> (https://rxsto.me)"
@@ -26,7 +25,9 @@
     "testEnvironment": "node",
     "collectCoverage": true
   },
-  "dependencies": {},
+  "dependencies": {
+    "@groovy/api-wrapper": "github:rxsto/groovy-api-wrapper#develop"
+  },
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
