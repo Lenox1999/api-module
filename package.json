@@ -2,11 +2,7 @@
   "name": "@groovy/api-module",
   "version": "0.1.0",
   "description": "Groovy's official api-module",
-  "contributors": [
-    {
-      "name": "Rxsto <oz@farfrom.social> (https://rxsto.me)"
-    }
-  ],
+  "author": "Rxsto <oz@farfrom.social> (https://rxsto.me)",
   "main": "lib/module.js",
   "repository": "https://github.com/Rxsto/groovy-api-module",
   "publishConfig": {
