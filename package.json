@@ -10,7 +10,7 @@
   },
   "scripts": {
     "dev": "nuxt test/fixture",
-    "lint": "eslint lib test",
+    "lint": "eslint . --fix --ignore-path .gitignore",
     "test": "npm run lint && jest",
     "release": "npm run test && standard-version && git push --follow-tags && npm publish"
   },
@@ -22,7 +22,7 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "@groovy/api-wrapper": "github:rxsto/groovy-api-wrapper#develop"
+    "@groovy/api-wrapper": "github:groovy-bot/api-wrapper"
   },
   "devDependencies": {
     "@babel/core": "latest",
